@@ -1,0 +1,128 @@
+\documentclass[a4paper,11pt]{article}
+\pdfoutput=1 % if your are submitting a pdflatex (i.e. if you have
+             % images in pdf, png or jpg format)
+
+\usepackage{jinstpub} % for details on the use of the package, please
+                     % see the JINST-author-manual
+
+
+\title{A scintillator based timing detector read-out by silicon photomultipliers for the SHiP experiment}
+
+
+%% %simple case: 2 authors, same institution
+%% \author{A. Uthor}
+%% \author{and A. Nother Author}
+%% \affiliation{Institution,\\Address, Country}
+
+% more complex case: 4 authors, 3 institutions, 2 footnotes
+\author[a,1]{C. Betancourt,\note{Corresponding author.}}
+\author[a]{R. Brundler,}
+\author[a]{A. Daetwyler,}
+\author[b]{D. Gascon,}
+\author[b]{S. Gomez,}
+\author[c]{A. Korzenev,}
+\author[c]{P. Mermod,}
+\author[c]{E. Noah,}
+\author[a]{N. Serra,}
+\author[a]{B. Storaci}
+
+% The "\note" macro will give a warning: "Ignoring empty anchor..."
+% you can safely ignore it.
+
+\affiliation[a]{Universit\"{a}t Z\"{u}rich}
+\affiliation[b]{Universitat de Barcelona}
+\affiliation[c]{Universit\'{e} de Gen\`{e}ve}
+
+% e-mail addresses: only for the forresponding author
+\emailAdd{christopher.betancourt@cern.ch}
+
+
+
+
+\abstract{SHiP is a proposed general purpose fixed target experiment to be located at the CERN SPS accelerator. A fixed target station will be followed by magnetic shielding to reduce beam induced background, a dedicated tau neutrino detector and a detector to seach for hidden particles beyond the Standard Model. Background taggers and a dedicated timing detector will ensure sufficient background rejection. The timing detector is required to have a timing resolution of 100 ps or less in order to reduce combinitorial di-muon background to an acceptable level. A proposed option for such a timing detector consists of plastic scintillating bars read-out on each end by silicon phtomultipliers, which is the focus of this study. Test beam results comparing different bar geometry and material type, different number of silicon photomultipliers on either end of the bar, as well as a new ASIC used for read-out are presented and discussed.}
+
+
+
+\keywords{Si-PMTs, Scintillators, Timing detectors}
+
+
+%\arxivnumber{1234.56789} % only if you have one
+
+
+% \collaboration{\includegraphics[height=17mm]{example-image}\\[6pt]
+%   XXX collaboration}
+% or
+\collaboration[c]{on behalf of SHiP collaboration}
+
+
+% if you write for a special issue this may be useful
+%\proceeding{N$^{\text{th}}$ Workshop on X\\
+%  when\\
+%  where}
+
+
+
+\begin{document}
+\maketitle
+\flushbottom
+
+\section{Introduction}
+\label{sec:intro}
+
+The SHiP (Search for Hidden Particles) experiment is a new proposed fixed target experiment located at the CERN SPS accelerator \cite{a}. SHiP is a high intensity experiment whose primary purpose is to search for physics beyond the Standard Model (SM) \cite{b}. A dedicated 400 GeV proton beam will be aimed at a fixed target station, followed by a magnetic shield to reduce beam induced background \cite{c}. Downstream of the target there is a dedicated tau neutrino detector followed by hidden sector detector
+
+\section{Experimental set-up and devices}
+\label{sec:setup}
+
+\section{Results}
+\label{sec:results}
+
+\section{Summary}
+\label{summary}
+
+\appendix
+\section{Some title}
+Please always give a title also for appendices.
+
+
+
+
+
+\acknowledgments
+
+This is the most common positions for acknowledgments. A macro is
+available to maintain the same layout and spelling of the heading.
+
+\paragraph{Note added.} This is also a good position for notes added
+after the paper has been written.
+
+
+
+
+
+% We suggest to always provide author, title and journal data:
+% in short all the informations that clearly identify a document.
+
+\begin{thebibliography}{99}
+
+\bibitem{a}
+The SHiP Collaboration, \emph{Technical Proposal, A Facility to Search for Hidden Particles (SHiP) at the CERN SPS, 2015},
+arxiv:1504.04956.
+
+\bibitem{b}
+The SHiP Collaboration, \emph{A facility to Search for Hidden Particles at the CERN SPS: the SHiP physics case}, \emph{Rep. Prog. Phys.} {\bf 79} (2016).
+
+\bibitem{c}
+A. Akmete et al., \emph{The active muon shield in the SHiP experiment}, \emph{JINST} {\bf 12} P05011 (2017).
+
+
+% Please avoid comments such as "For a review'', "For some examples",
+% "and references therein" or move them in the text. In general,
+% please leave only references in the bibliography and move all
+% accessory text in footnotes.
+
+% Also, please have only one work for each \bibitem.
+
+
+\end{thebibliography}
+\end{document}
