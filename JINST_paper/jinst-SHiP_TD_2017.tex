@@ -69,7 +69,13 @@
 \section{Introduction}
 \label{sec:intro}
 
-The SHiP (Search for Hidden Particles) experiment is a new proposed fixed target experiment located at the CERN SPS accelerator \cite{a}. SHiP is a high intensity experiment whose primary purpose is to search for physics beyond the Standard Model (SM) \cite{b}. A dedicated 400 GeV proton beam will be aimed at a fixed target station, followed by a magnetic shield to reduce beam induced background \cite{c}. Downstream of the target there is a dedicated tau neutrino detector followed by hidden sector detector
+The SHiP (Search for Hidden Particles) experiment is a new proposed fixed target experiment located at the CERN SPS accelerator \cite{a}. SHiP is a high intensity experiment whose primary purpose is to search for physics beyond the Standard Model \cite{b}. A dedicated 400 GeV proton beam will be aimed at a fixed target station, followed by a magnetic shield to reduce beam induced background \cite{c}. Downstream of the target there is a dedicated tau neutrino consisting of an emulsion target with tracking in a magnetic field followed by a muon spectrometer. A hidden sector detector follows, consisting of a long evacuated vacuum vessel followed by a magnetic spectrometer, calorimeters, and a muon detector located on the far end, allowing for full reconstruction and particle idetification of hidden particle decays. Background rejection is ensured by background taggers and a dedicated timing detector.
+
+Muon that are backscattered by the experimental hall can enter the decay volume and fake signal events. This combinitorial di-muon background can be reduced to an acceptable level by requiring that events are coincidence in time withing 100 ps or less, which is achieved with a dedicated timing detector. One option for such a detector consists of long plastic scintillating bars read-out on both ends by silicon photomultiplers (SiPM). A recent study has shown that a timing resolution down to about 50 ps with such a set-up is feasable \cite{d}.
+
+This study focuses on testbeam results carried out at CERN with muons. Plastic scintillating bars of different gemetries, ranging from 50 cm to 150 cm in length, and from 1 cm to 2.5 cm in thickness, are compared, as well as two different scintillating materials. The effect on the resolution on number of SiPMs on either end of the bars is also investigated. A comparison of the time resolution between single-sided read-out i.e. read out on one side of the bar, and double-sided read-out is made. Finally, the testbeam tests are used to evaluate the suitability of a new ASIC, called MUSIC, in the implementation of the timing detector.
+
+This paper is presented as follows. Section \ref{sec:setup} describes the experimental set-up and devices under test. Section \ref{sec:results} presents results from the testbeam. A summary and outlook are then given in section \ref{sec:summary}.
 
 \section{Experimental set-up and devices}
 \label{sec:setup}
@@ -78,7 +84,7 @@ The SHiP (Search for Hidden Particles) experiment is a new proposed fixed target
 \label{sec:results}
 
 \section{Summary}
-\label{summary}
+\label{sec:summary}
 
 \appendix
 \section{Some title}
@@ -115,7 +121,8 @@ The SHiP Collaboration, \emph{A facility to Search for Hidden Particles at the C
 \bibitem{c}
 A. Akmete et al., \emph{The active muon shield in the SHiP experiment}, \emph{JINST} {\bf 12} P05011 (2017).
 
-
+\bibitem{d}
+C. Betancourt et al., \emph{SiPM readout for the SHiP timing detector}, \emph{JINST} {\bf 12} C02058 (2017).
 % Please avoid comments such as "For a review'', "For some examples",
 % "and references therein" or move them in the text. In general,
 % please leave only references in the bibliography and move all
